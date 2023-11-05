@@ -1,0 +1,71 @@
+/* styles.css */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #333;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.developer-info {
+  background-color: #333;
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.developer-info:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.developer-info h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #ffcc00;
+}
+
+.developer-info p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.developer-info a img {
+  width: 30px; /* Set the width of the logos */
+  height: 30px; /* Set the height of the logos */
+  margin-right: 10px; /* Add spacing between logo and text */
+  vertical-align: middle; /* Align the logo vertically with the text */
+}
+
+.developer-info a img:hover {
+  filter: brightness(1.5); /* Add brightness effect on hover */
+}
+
+.developer-info a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.developer-info a:hover {
+  color: #0056b3;
+}
+
+.logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}

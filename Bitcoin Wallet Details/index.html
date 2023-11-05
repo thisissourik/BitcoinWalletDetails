@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitcoin Wallet Details</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <!-- <div class="container-navbar">
+          <!-- <div class="logo">
+              <img src="logo.png" alt="Logo">
+          </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <div class="dropdown-content">
+              <p>Information about the developer goes here.</p>
+            </div>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+        </div> -->
+    </nav>
+
+    <div class="container">
+      <h1>Enter Wallet Address</h1>
+      <div class="input-group">
+        <input
+          type="text"
+          id="bitcoinAddress"
+          placeholder="Enter Bitcoin Address"
+        />
+        <button id="btn" onclick="changeColor()">Get Details</button>
+      </div>
+      <div class="result" id="walletDetails"></div>
+    </div>
+
+    <script>
+      function getWalletDetails() {
+        // JavaScript code to fetch wallet details and update #walletDetails element
+        // This is where you can make the API request and update the result on the page
+        // Example: Use fetch() or XMLHttpRequest to make API request
+        // Update the #walletDetails element with the fetched data
+      }
+    </script>
+  </body>
+</html>
